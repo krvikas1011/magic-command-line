@@ -1,2 +1,27 @@
-Python based technologies will be appropriate for this project because of the already available extensive support libraries, like click, argparse, docopt, etc. 
-Tasks related to creating command-line interfaces will be simple and clean, with minimum code required. These are user-friendly, efficient and easy to use. 
+Our goal is to create an OS-independent command line tool.  
+There are tons of Python libraries and modules, like click, argparse, docopt, etc., to help build a command line app from parsing arguments and 
+options to flagging to full blown CLI “frameworks” which do things like colorized output, progress bars, sending email and so on.
+With these modules, we can create a beautiful and interactive command line interface in a clean and efficient way.
+
+Follwing are some of the libraries that are used in building CLI:
+Click:
+Python click module allows arbitrary nesting of commands.
+It helps in automatic help page generation.
+It supports lazy loading of subcommands at runtime.
+It comes with useful common helpers (getting terminal dimensions, ANSI colors, fetching direct keyboard input, screen clearing, finding config paths, launching apps and editors, etc.)
+
+Argparse:
+It makes it easy to write user-friendly command-line interfaces.
+The program defines what arguments it requires, and argparse will figure out how to parse those out of sys.argv.
+The argparse module also automatically generates help and usage messages and issues errors when users give the program invalid arguments.
+
+Docopt:
+Docopt creates command line interface for the command line app, it automatically generates a parser for it. 
+The main idea of docopt is to describe the interface literally with text, as in docstring. 
+Docopt gives us strong control over our help page and it consists of the usage keyword which is case-insensitive that is followed by the program name.
+
+Others:
+Other Python CLI tool cement provides a light-weight and fully featured foundation to build anything from single file scripts to complex and intricately designed applications.
+Clint supports colors, awesome nest-able indentation context manager, supports custom email-style quotes, has an awesome Column printer with optional auto-expanding columns and so on.
+
+To sum up, python based technologies are best suitable for creating a command line tool.
