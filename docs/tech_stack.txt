@@ -1,0 +1,2 @@
+Python based technologies will be appropriate for this project because of the already available extensive support libraries, like click, argparse, docopt, etc. 
+Tasks related to creating command-line interfaces will be simple and clean, with minimum code required. These are user-friendly, efficient and easy to use. 
