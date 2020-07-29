@@ -1,0 +1,55 @@
+
+OPERATION ON FILES/FOLDERS:
+1. Traversing to root/immediate parent directory
+2. Present working directory
+3. List files/folders inside a current/given directory
+4. List all hidden files/folders in a current/given directory
+5. List everything recursively in current/given directory
+6. Create/Delete/Copy/Cut a file/folder
+7. Create/Delete/Copy/Cut a file/folder recursively (Delete: safe delete and force delete)
+8. Search for a file/folder
+9. Search by last modified dates on files/folders
+10. Search either for a word/content in a file
+11. Search within content of a file
+12. Search within output of another command
+13. Difference of content of files/folders
+14. Display content of a file to console
+15. Put console data to file
+16. Autocomplete file/folder names
+17. Restore any file/folder
+18. Autocomplete file/folder names
+
+PIPING:
+1. Piping
+
+PERMISSIONS:
+1. Giving admin privilege to a command/process
+2. Give/Deny permission to file/folder
+
+INFO ON PROCESSOR/DISK/PROCESSES:
+1. CPU usage on system
+2. Getting system information
+3. Getting disk usage information for a file/folder.
+4. Getting all the running processes and info about them.
+5. Ability to start/kill a process.
+6. Ability to monitor multiple processes.
+
+PINGS:
+1. Supporting pings
+
+HELPFUL TERMINAL COMMANDS:
+1. Getting history of commands used
+2. zip/unzip commands
+
+SCREENSHOT:
+1. Take screenshots
+
+IP/PORT:
+1. Get the IP address
+2. List all processes running with the port numbers they are listening to
+
+UPDATING/INSTALLING:
+1. Check versions of softwares installed
+2. Installing softwares, modules, libraries
+3. Updating softwares, modules, libraries
+4. Running executables, programs, batch files
