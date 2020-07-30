@@ -18,6 +18,7 @@ OPERATION ON FILES/FOLDERS:
 16. Autocomplete file/folder names
 17. Restore any file/folder
 18. Autocomplete file/folder names
+19. zip/unzip commands
 
 PIPING:
 1. Piping
@@ -39,7 +40,6 @@ PINGS:
 
 HELPFUL TERMINAL COMMANDS:
 1. Getting history of commands used
-2. zip/unzip commands
 
 SCREENSHOT:
 1. Take screenshots
