@@ -1,7 +1,8 @@
-Our goal is to create an OS-independent command line tool.  
-There are tons of Python libraries and modules, like click, argparse, docopt, etc., to help build a command line app from parsing arguments and 
-options to flagging to full blown CLI “frameworks” which do things like colorized output, progress bars, sending email and so on.
-We can automatically generate help messages and get a strong control over our help page.
-With these modules in Python, we can create a beautiful and interactive command line interface in a clean and efficient way.
+We will be doing a lot of interactions with OS, and python has mature extensive libraries to do that.
+There are tons of Python libraries and modules, like click, argparse, docopt, etc., to help build a command line interface 
+resuting in things like colourized output, progress bars for telling the runtime status, etc.
+Using these we can also handle the error cases better, letting the user know where they exactly went wrong.
+We can automatically generate help messages and let the user know more on command's usage and its syntax, and the various options available with those commands.
+With these modules in Python, we can create an interactive command line interface in a clean and efficient way.
 Also, our aim is to add a command line helper bot in the future, which will need deep learning/NLP constraints, and python has most mature libraries supporting those.
 
