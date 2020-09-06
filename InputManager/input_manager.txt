@@ -1,0 +1,7 @@
+The Input Manager must involve the following functionalities to fulfil the role of a Input Manager:
+->Welcome message to the user when the application is launched
+->Input manager prompts 3 types of command that it will take as input 
+->The 3 types of input are Magic command, Developer command, keyword command
+->Pass the command to the command processor
+->Check the input and throw necessary exceptions like nullpointer (user understandable statement)
+->It should give an option for help (which gives a basic magic structure tutorial for user to begin with)
