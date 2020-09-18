@@ -1,0 +1,18 @@
+resource:
+  - file
+
+action:
+  - create
+
+parameters:
+  - C:\Documents\test.py
+
+nested:
+  - param
+  -
+    - nested param
+
+users:
+  root:
+    username: root
+    password: pass
