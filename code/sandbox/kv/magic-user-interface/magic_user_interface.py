@@ -1,16 +1,21 @@
+from input_manager.command_input_manager import init_all_commands
+
+
 class MagicUserInterface:
     """
     Used to handle user interactions. This involves the input/output management and handling all errors.
     Entry point for Magic UI.
     """
 
-    def _init_input_management(self):
+    @staticmethod
+    def _init_input_management():
         """
         Used to initialize the listeners for input commands.
         :return: None
         """
-        pass
+        init_all_commands()
 
+    @staticmethod
     def _init_output_management(self):
         """
         Used to initialize the output libraries.
@@ -18,6 +23,7 @@ class MagicUserInterface:
         """
         pass
 
+    @staticmethod
     def _init_command_processor_interface(self):
         """
         Used to initialize processors.
@@ -25,6 +31,7 @@ class MagicUserInterface:
         """
         pass
 
+    @staticmethod
     def _setup_error_boundary(self):
         """
         Used to setup error boundary.
@@ -32,6 +39,7 @@ class MagicUserInterface:
         """
         pass
 
+    @staticmethod
     def init_magic_ui(self):
         self._init_input_management()
         self._init_output_management()
@@ -40,4 +48,4 @@ class MagicUserInterface:
 
 
 if __name__ == '__main__':
-    MagicUserInterface().init_magic_ui()
+    MagicUserInterface.init_magic_ui()
