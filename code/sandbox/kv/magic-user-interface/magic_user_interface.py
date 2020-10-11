@@ -16,7 +16,7 @@ class MagicUserInterface:
         init_all_commands()
 
     @staticmethod
-    def _init_output_management(self):
+    def _init_output_management():
         """
         Used to initialize the output libraries.
         :return: None
@@ -24,7 +24,7 @@ class MagicUserInterface:
         pass
 
     @staticmethod
-    def _init_command_processor_interface(self):
+    def _init_command_processor_interface():
         """
         Used to initialize processors.
         :return: None
@@ -32,7 +32,7 @@ class MagicUserInterface:
         pass
 
     @staticmethod
-    def _setup_error_boundary(self):
+    def _setup_error_boundary():
         """
         Used to setup error boundary.
         :return:
@@ -40,11 +40,11 @@ class MagicUserInterface:
         pass
 
     @staticmethod
-    def init_magic_ui(self):
-        self._init_input_management()
-        self._init_output_management()
-        self._init_command_processor_interface()
-        self._setup_error_boundary()
+    def init_magic_ui():
+        MagicUserInterface._init_input_management()
+        MagicUserInterface._init_output_management()
+        MagicUserInterface._init_command_processor_interface()
+        MagicUserInterface._setup_error_boundary()
 
 
 if __name__ == '__main__':
